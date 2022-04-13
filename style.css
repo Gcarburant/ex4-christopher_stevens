@@ -912,7 +912,7 @@ ANIMATION
 
 @keyframes anim-entete {
   0% {
-    transform: translateY(-100vh);
+    transform: translateY(-140vh);
   }
   100% {
     transform: translateY(0);
