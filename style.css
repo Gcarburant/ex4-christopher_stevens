@@ -352,7 +352,7 @@ a {
 }
 
 a:visited {
-  color: #65295b;
+  color: #371131;
 }
 
 a:hover, a:focus, a:active {
@@ -393,7 +393,7 @@ a:hover, a:active {
 }
 
 .header__titre a:visited {
-  color: #4c0b41;
+  color: #371131;
 }
 
 .header__titre a:hover, .header__titre a:focus, .header__titre a:active {
