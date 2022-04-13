@@ -819,7 +819,7 @@ Navigation pour la page category.php   boutons de catégorie  groupe-1
 
 .recherche {
   display: flex;
-  border: 1px solid #aaa;
+  border: 1px solid black;
   height: 30px;
 }
 
