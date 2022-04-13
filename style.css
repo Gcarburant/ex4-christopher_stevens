@@ -467,7 +467,7 @@ COMPOSANTES
 .site__main {
   background-color: white;
   border-radius: 5px;
-  box-shadow: #39443e 1px -1px 10px;
+  box-shadow: #404241 1px -1px 10px;
 }
 
 .formation {
@@ -878,7 +878,7 @@ ANIMATION
   border-radius: 50%;
   background-color: #f711ec;
   color: #fff;
-  font-size: 3rem;
+  font-size: 4rem;
   transform: translateY(-100vh);
 }
 
