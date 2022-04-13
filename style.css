@@ -450,7 +450,7 @@ h5 {
 }
 
 h6 {
-  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-size: clamp(1rem, 1vw, 2rem);
 }
 
 p {
@@ -708,8 +708,8 @@ COMPOSANTES
 }
 
 .menu-accueil-container .menu .menu-item a .menu-item-icone {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   border: 1px solid #aaa;
   margin-top: auto;
   background-repeat: no-repeat;
