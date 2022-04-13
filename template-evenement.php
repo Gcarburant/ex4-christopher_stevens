@@ -8,7 +8,7 @@
 ?>
 
 <main class="site__main">
-     <h1>---- page.php ------</h1>
+     <h1>---- template-evenement.php ------</h1>
      <?php if (have_posts()): while(have_posts()): the_post(); ?>
      <?php the_title() ?>
      <?php the_content() ?>

@@ -10,8 +10,13 @@
     <div class="animation__bloc">U</div>
     <div class="animation__bloc">R</div>
 </section>
+<h2>le departement</h2>
 <?php wp_nav_menu(array(
-        "menu"=> "menu_accueil",
+        "menu"=> "accueil",
+        "container" => "nav")); ?>
+        <h2>evenement</h2>
+<?php wp_nav_menu(array(
+        "menu"=> "accueil_evenement",
         "container" => "nav")); ?>
     <h1>Front-page</h1>
    <?php if (have_posts()): the_post(); ?>
