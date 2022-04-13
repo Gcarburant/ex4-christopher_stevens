@@ -27,7 +27,11 @@
             <h2 class="header__description"><?php bloginfo('description'); ?></h2>
         </section>
         <section class="util">
-            <?php get_sidebar('entete_1'); ?>
+        <?php get_sidebar('entete_1'); ?>
+            <!-- div class="util__menu">
+               
+            </div -->
+            <?php // get_search_form(); ?>
             <?php get_search_form(); ?>
             <!-- form recherche -->
         </section>
