@@ -902,6 +902,14 @@ ANIMATION
   animation: anim-entete 1s 1s forwards;
 }
 
+.animation__bloc:nth-of-type(6) {
+  animation: anim-entete 1s 1.25s forwards;
+}
+
+.animation__bloc:nth-of-type(7) {
+  animation: anim-entete 1s 1.5s forwards;
+}
+
 @keyframes anim-entete {
   0% {
     transform: translateY(-100vh);

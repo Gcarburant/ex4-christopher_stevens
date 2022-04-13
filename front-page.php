@@ -7,6 +7,8 @@
     <div class="animation__bloc">3</div>
     <div class="animation__bloc">4</div>
     <div class="animation__bloc">5</div>
+    <div class="animation__bloc">6</div>
+    <div class="animation__bloc">7</div>
 </section>
 <?php wp_nav_menu(array(
         "menu"=> "menu_accueil",

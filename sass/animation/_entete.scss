@@ -29,6 +29,12 @@
         &:nth-of-type(5){
             animation : anim-entete 1s 1s forwards;
         }
+        &:nth-of-type(6){
+            animation : anim-entete 1s 1.25s forwards;
+        }
+        &:nth-of-type(7){
+            animation : anim-entete 1s 1.5s forwards;
+        }
     }
     
 }
