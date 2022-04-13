@@ -13,7 +13,7 @@
 <?php wp_nav_menu(array(
         "menu"=> "menu_accueil",
         "container" => "nav")); ?>
-    <h1>---- Front-page.php ------</h1>
+    <h1>Front-page</h1>
    <?php if (have_posts()): the_post(); ?>
         <?php the_title() ?>
         <?php the_content() ?>   
