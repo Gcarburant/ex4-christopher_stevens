@@ -685,6 +685,22 @@ COMPOSANTES
   background-image: url("https://s2.svgbox.net/octicons.svg?ic=file-badge-bold");
 }
 
+.menu-accueil-container .menu .accueil__journee .menu-item-icone, .menu-evenement-container .menu .accueil__journee .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=file-badge-bold");
+}
+
+.menu-accueil-container .menu .accueil__porte__1 .menu-item-icone, .menu-evenement-container .menu .accueil__porte__1 .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=file-badge-bold");
+}
+
+.menu-accueil-container .menu .accueil__porte__2 .menu-item-icone, .menu-evenement-container .menu .accueil__porte__2 .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=file-badge-bold");
+}
+
+.menu-accueil-container .menu .accueil__projet .menu-item-icone, .menu-evenement-container .menu .accueil__projet .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/octicons.svg?ic=file-badge-bold");
+}
+
 .menu-accueil-container .menu .menu-item, .menu-evenement-container .menu .menu-item {
   display: flex;
   flex-direction: column;
@@ -860,6 +876,14 @@ Navigation pour la page category.php   boutons de catégorie  groupe-1
 
 .cours section {
   display: flex;
+}
+
+.evenement__resume {
+  background-color: #bbb;
+}
+
+.evenement__organisateur {
+  background-color: #bbb;
 }
 
 /* ---------------------------------------------------------

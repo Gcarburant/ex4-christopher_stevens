@@ -22,6 +22,11 @@
     <section class="footer__auteur">Auteur : Christopher Stevens</section>
 </div>
 </footer>
+<div class="boite__modale">
+    <p class="boite__modale__text">
+         Ceci est une test pour verifier le fonctionement modale
+    </p>
+</div>
 <?php wp_footer() ?>
 </body>
 </html>
