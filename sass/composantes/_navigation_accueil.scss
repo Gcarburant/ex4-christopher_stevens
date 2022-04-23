@@ -8,22 +8,34 @@
         .accueil__cours .menu-item-icone{
             background-image: url("https://s2.svgbox.net/octicons.svg?ic=file-badge-bold");
         }
-        .accueil__prof{}
-        .accueil__aide{}
-        .accueil__etudiant{}
+        .accueil__prof .menu-item-icone{
+            background-image: url("https://s2.svgbox.net/octicons.svg?ic=octoface");
+        }
+        .accueil__aide .menu-item-icone{
+            background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
+            
 
+        }
+        .accueil__etudiant .menu-item-icone{
+            background-image: url("https://s2.svgbox.net/octicons.svg?ic=mortar-board-bold");
+        }
+        
         .accueil__journee .menu-item-icone{
-            background-image: url("https://s2.svgbox.net/octicons.svg?ic=file-badge-bold");
-        }
+            background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
+        }    
         .accueil__porte__1 .menu-item-icone{
-            background-image: url("https://s2.svgbox.net/octicons.svg?ic=file-badge-bold");
-        }
+            background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
+        }   
         .accueil__porte__2 .menu-item-icone{
-            background-image: url("https://s2.svgbox.net/octicons.svg?ic=file-badge-bold");
-        }
+            background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
+        }  
+
         .accueil__projet .menu-item-icone{
-            background-image: url("https://s2.svgbox.net/octicons.svg?ic=file-badge-bold");
-        }
+            background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
+        } 
+ 
+ 
+
         .menu-item {
             //li
             display : flex;
@@ -46,13 +58,12 @@
                     // span`
                     font-size: 1rem;
                     text-align: center;
-
                 }
 
                 .menu-item-icone {
                     
-                    width : 3rem;
-                    height : 3rem;
+                    width : 2rem;
+                    height : 2rem;
                     border : 1px solid #aaa;
                     margin-top : auto;
                     background-repeat: no-repeat;

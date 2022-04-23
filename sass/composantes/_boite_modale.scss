@@ -1,15 +1,16 @@
-.boite__modale{
-    position: fixed;
-    width: 50%;
-    height: 50%;
-    top: 25%;
-    left: 25%;
+/* Le parent de la boite__modale est la balise «body»  */
+.boite__modale {
+    position : fixed;
+    width : 50%;
+    height : 50%;
+    top:25%;
+    left:25%;
     border: 5px solid #aaa;
-    background-color: red;
-    transform: scale(0);
-    transition: all 1s ease-in-out;
-}
+    background-color: #f00;
+    transform : scale(0);
+    transition : all 1s ease-in-out;
 
-&__ouvrir{
-    transform: scale(1);
+    &--ouvrir {
+        transform : scale(1)
+    }
 }
