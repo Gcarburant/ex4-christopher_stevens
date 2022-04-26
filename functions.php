@@ -4,8 +4,13 @@ function cidw_4w4_enqueue(){
     //wp_enqueue_style('style_css', get_stylesheet_uri());
     wp_enqueue_style('cidw-4w4-le-style', get_template_directory_uri() . '/style.css', array(), filemtime(get_template_directory() . '/style.css'), false);
     wp_enqueue_style('cidw-4w4-police-google',"https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400;500&family=Roboto&display=swap");
-    wp_enqueue_style('cidw-4w4-boite-modale', get_template_directory_uri() . '/javascript/boite_modale.js', array(), filemtime(get_template_directory() . '/javascript/boite_modale.js'), true);
-
+    wp_enqueue_script('cidw-4w4-boite-modale', 
+                        get_template_directory_uri() . '/js/boite-modale.js',
+                        array(),
+                        filemtime(get_template_directory() . '/js/boite-modale.js'),
+                        true);
+   
+   
     
 
 }
@@ -20,7 +25,7 @@ function cidw_4w4_register_nav_menu(){
         'menu_lien_externe'  => __( 'Menu lien externe', 'cidw_4w4' ),
         'menu_cours' => __('Menu categories cours', 'cidw_4w4'),
         'menu_accueil' => __('Menu accueil', 'cidw_4w4'),
-        'menu_accueil_evenement' => __('Menu accueil evenement', 'cidw_4w4')
+        'menu_accueil_evenement' => __('Menu accueil événement', 'cidw_4w4'),
     ) );
 }
 add_action( 'after_setup_theme', 'cidw_4w4_register_nav_menu', 0 );
@@ -73,18 +78,6 @@ add_action( 'after_setup_theme', 'cidw_4w4_add_theme_support' );
 
 function my_register_sidebars() {
     /* Register the 'primary' sidebar. */
-    register_sidebar(
-        array(
-            'id'            => 'entete_1',
-            'name'          => __( 'Entete 1' ),
-            'description'   => __( 'Entete 1' ),
-            'before_widget' => '<div id="%1$s" class="widget %2$s">',
-            'after_widget'  => '</div>',
-            'before_title'  => '<h3 class="widget-title">',
-            'after_title'   => '</h3>',
-        )
-    );
-    
     register_sidebar(
         array(
             'id'            => 'pied_page_colonne_1',
@@ -160,18 +153,17 @@ function trouve_la_categorie($tableau){
 function cidw_4w4_pre_get_posts(WP_Query $query)
 {
     if (is_admin() 
-    || !$query->is_main_query() 
-    || !$query->is_category(array('cours','web','jeu','design','utilitaire','creation-3d','video'))   )
+        || !$query->is_main_query() 
+        || !$query->is_category(array('cours','web','jeu','design','utilitaire','creation-3d','video'))   )
     {
         return $query;
     }        
     else
     {
-        $ordre = get_query_var('ordre','asc');
-        $cle = get_query_var('cletri', 'title');       
+        $ordre = get_query_var('ordre', 'asc');
+        $cle = get_query_var('cletri','title');       
         $query->set('order',  $ordre);
         $query->set('orderby', $cle);
-
         $query->set('postperpage','-1');
         return $query;
     }
