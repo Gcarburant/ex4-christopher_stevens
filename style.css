@@ -468,7 +468,7 @@ COMPOSANTES
 .site__main {
   background-color: white;
   border-radius: 5px;
-  box-shadow: #404241 1px -1px 10px;
+  box-shadow: #39443e 1px -1px 10px;
 }
 
 .formation {
@@ -544,6 +544,10 @@ COMPOSANTES
   font-size: 1.5rem;
   color: #ea00ff;
   margin: 5px 0px;
+}
+
+.cours__invisible {
+  display: none;
 }
 
 .cours__sigle {
