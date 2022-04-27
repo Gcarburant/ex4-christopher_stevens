@@ -46,4 +46,8 @@ $manager->add_control(new WP_Customize_Manager($manager, 'background_body',[
                                               "label"=>"couleur de background de body"
                                                ]));
 
+$manager->add_control(new WP_Customize_Manager($manager, 'background_body',[
+                                                "footer"=>"modifier_background_footer",
+                                                "label"=>"couleur de background de footer"
+                                                 ]));
 ?>
