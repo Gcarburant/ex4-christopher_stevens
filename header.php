@@ -14,13 +14,11 @@
     <?php wp_head() ?>
     <?php show_admin_bar(true); ?>
 
-    <style>
-        
-    </style>
+    <style <?php body_class(".site__footer"); ?> style="background-color" <? get_theme_mod('background-footer') ?>></style>
 
 </head>
 
-<body <?php body_class("site"); ?> style="background_color" <? get_theme_mod('background_body') ?>>
+<body <?php body_class("site"); ?> style="background-color" <? get_theme_mod('background-body') ?>>
     <header class="site__header">
         <section class="site__header__titre">
             <?php the_custom_logo(); ?>
