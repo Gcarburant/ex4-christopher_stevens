@@ -19,15 +19,13 @@
                     "link_before"=>$icone)); ?>
     </section>
     <section class="footer__recherche"><?php get_search_form(); ?></section>
-    <section class="footer__auteur">Auteur : Christopher Stevens</section>
+    <section class="footer__auteur">Auteur : Eddy Martin</section>
 </div>
 </footer>
 <div class="boite__modale">
     <button class="boite__modale__ferme">X</button>
-    <p class="boite__modale__texte">
-         Ceci est une test pour verifier le fonctionement modale
-    </p>
+    <article class="boite__modale__texte"></article>
 </div>
-<?php wp_footer() ?>
+<?php wp_footer(); ?>
 </body>
 </html>

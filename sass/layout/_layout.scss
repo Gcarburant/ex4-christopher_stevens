@@ -13,9 +13,10 @@
     bottom:0;
     left:0;
     right:0;
-    clip-path: polygon(78% 0, 100% 0, 100% 100%, 51% 100%);
+    clip-path: polygon(83% 0, 100% 0, 100% 100%, 63% 100%);
     background-color:$color__background-body-clip ;
     z-index : -1;
+    height : 150vh;
 }
 
 
@@ -34,8 +35,8 @@
     grid-area: main;
     background-color: rgba($color__background-main,.5);
     padding: 10px 15px 10px 15px;
-    display: flex;
-    flex-direction: column;
+    display : flex;
+    flex-direction : column;
 }
 
 .site__footer{
@@ -75,5 +76,3 @@
             "footer";
     }
 }
-
-

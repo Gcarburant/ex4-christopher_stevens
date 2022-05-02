@@ -14,4 +14,9 @@
     &--ouvrir {
         transform : scale(1)
     }
+
+    &__texte
+    {
+        overflow: hidden;
+    }
 }
