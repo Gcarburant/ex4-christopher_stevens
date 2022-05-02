@@ -16,6 +16,11 @@ function cidw_4w4_enqueue(){
                         filemtime(get_template_directory() . '/js/burger.js'),
                         true);
    
+                        wp_enqueue_script('cidw-4w4-caroussel', 
+                        get_template_directory_uri() . '/js/caroussel.js',
+                        array(),
+                        filemtime(get_template_directory() . '/js/caroussel.js'),
+                        true);
    
     
 

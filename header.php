@@ -15,14 +15,6 @@
     <?php show_admin_bar(true); ?>
 
     <style>
-<<<<<<< Updated upstream
-        
-    </style>
-
-</head>
-
-<body <?php body_class("site"); ?> style="background_color" <? get_theme_mod('background_body') ?>>
-=======
         /* À compléter pour récupérer la nouvelle couleur du clipPath */
         .home::after {
             /* background-color :  */
@@ -32,7 +24,6 @@
 
 <body <?php body_class("site"); ?> style="background-color:<?=  get_theme_mod('background_body');?>;" >
 
->>>>>>> Stashed changes
     <header class="site__header">
         <section class="site__header__titre">
             <?php the_custom_logo(); ?>
