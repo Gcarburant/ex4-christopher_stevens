@@ -19,12 +19,16 @@
                     "link_before"=>$icone)); ?>
     </section>
     <section class="footer__recherche"><?php get_search_form(); ?></section>
-    <section class="footer__auteur">Auteur : Eddy Martin</section>
+    <section class="footer__auteur">Auteur : Christopher Stevens</section>
 </div>
 </footer>
 <div class="boite__modale">
     <button class="boite__modale__ferme">X</button>
     <article class="boite__modale__texte"></article>
+</div>
+<div class="boite__carrousel">
+    <button class="boite__carrousel__ferme">X</button>
+    <section class="boite__carrousel__navigation"></section>
 </div>
 <?php wp_footer(); ?>
 </body>
