@@ -7,7 +7,6 @@
     border-radius : 25%;
     overflow: hidden;
 
-
     .burger__ligne{
         position : absolute;
         width : 100%;
@@ -41,10 +40,7 @@
         }
     }
 */
-
 }
-
-
 
 #chk-burger:checked ~ #burger .burger__ligne{
 
@@ -60,20 +56,6 @@
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 #chk-burger:checked ~ .burger {
