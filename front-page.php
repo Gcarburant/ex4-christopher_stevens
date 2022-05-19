@@ -18,6 +18,11 @@
         "menu"=> "evenement",
         "container" => "nav")); ?>        
 
+<h2>Les Atelier a venir</h2>
+<?php wp_nav_menu(array(
+        "menu"=> "atelier",
+        "container" => "nav")); ?> 
+
    <?php if (have_posts()): the_post(); ?>
         <h2><?php the_title() ?></h2>
         <?php the_content() ?>   
