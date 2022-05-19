@@ -1,7 +1,7 @@
 <?php
 get_header();
 /**
-* Template Name: evenement
+* Template Name: atelier a venir
 *
 * @package WordPress
 * @subpackage cidw-4w4
